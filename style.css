@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(0, 0%, 8%);
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+#mainDiv{
+    border: 2px solid white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#sub{
+    max-width: 500px;
+    background-color:hsl(0, 0%, 12%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#top img{
+    width: 5rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+}
+
+#top h3{
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+}
+#top h5{
+    margin-bottom: 1rem;
+    color: hsl(75, 94%, 57%);
+}
+#bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom *{
+    margin-bottom: 10px;
+    background-color:hsl(0, 0%, 20%);
+    color: #ffffff;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+#bottom *:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    transition: 0.3s;
+}
+#bottom button:nth-child(1){
+    margin-top: 1rem;
+}
+
